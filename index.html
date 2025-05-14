@@ -1,0 +1,131 @@
+<!-- MARIA GORETI BARA DAWA (50421777) 4IA21 -->
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Buku Online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="animated-text">Toko Buku Online</h1>
+      <p class="subtitle">Temukan Buku Impianmu di Sini</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#bestseller">Best Seller</a></li>
+        <li><a href="#kategori">Kategori</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <marquee class="marquee" behavior="alternate" direction="left">
+          🎉 Promo Spesial: Diskon 20% untuk semua buku fiksi! 🎉
+        </marquee>
+      </section>
+
+      <section class="audio-section">
+        <h2>Dengarkan Musik Sambil Membeli Buku</h2>
+        <div class="audio-player">
+          <audio id="background-music" controls>
+            <source
+              src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+              type="audio/mpeg"
+            />
+            Browser Anda tidak mendukung elemen audio.
+          </audio>
+          <div class="audio-controls">
+            <button
+              onclick="document.getElementById('background-music').play()"
+              class="audio-btn"
+            >
+              ▶️ Putar
+            </button>
+            <button
+              onclick="document.getElementById('background-music').pause()"
+              class="audio-btn"
+            >
+              ⏸️ Jeda
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-section">
+        <h2>Video Rekomendasi Buku</h2>
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/q0YSPSkxYz4?si=1solcn_6loT4oGaj"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+          gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="featured-books">
+        <h2>Buku Terlaris</h2>
+        <div class="book-grid">
+          <div class="book-card">
+            <img
+              src="https://media.karousell.com/media/photos/products/2024/7/15/novel_serial_bumi_tere_liye_ol_1721063685_7dad2278_progressive.jpg"
+              alt="Buku 1"
+            />
+            <h3>Bumi</h3>
+            <p class="author">Penulis: Tere Liye</p>
+            <p class="price">Rp 70.000</p>
+            <button class="buy-btn">Beli Sekarang</button>
+          </div>
+          <div class="book-card">
+            <img
+              src="https://rizkybarokah.co.id/wp-content/uploads/2022/06/novel_bulan_tere_liye.jpg"
+              alt="Buku 2"
+            />
+            <h3>Bulan</h3>
+            <p class="author">Penulis: Tere Liye</p>
+            <p class="price">Rp 75.000</p>
+            <button class="buy-btn">Beli Sekarang</button>
+          </div>
+          <div class="book-card">
+            <img
+              src="https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/25d9aa85e975450d9976050905f9eadc~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg?dr=15584&from=1826719393&idc=maliva&ps=933b5bde&shcp=e1be8f53&shp=6ce186a1&t=555f072d"
+              alt="Buku 3"
+            />
+            <h3>Aldebaran</h3>
+            <p class="author">Penulis: Tere Liyen</p>
+            <p class="price">Rp 70.000</p>
+            <button class="buy-btn">Beli Sekarang</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories">
+        <h2>Kategori Buku</h2>
+        <div class="category-list">
+          <span class="category-tag">Fiksi</span>
+          <span class="category-tag">Non-Fiksi</span>
+          <span class="category-tag">Pendidikan</span>
+          <span class="category-tag">Bisnis</span>
+          <span class="category-tag">Teknologi</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 Toko Buku Online. Dibuat oleh Maria Goreti Bara Dawa
+        (50421777)
+      </p>
+    </footer>
+  </body>
+</html>
